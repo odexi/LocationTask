@@ -12,26 +12,26 @@
         android:layout_height="fill_parent" />
 
     <TextView
-        android:id="@+id/latitude"
+        android:id="@+id/latitude1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Latitude"
-        tools:layout_constraintTop_creator="1"
         android:layout_marginStart="40dp"
         android:layout_marginTop="54dp"
-        tools:layout_constraintLeft_creator="1"
+        android:text="Latitude"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <TextView
-        android:id="@+id/longitude"
+        android:id="@+id/longitude1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Longitude"
-        tools:layout_constraintTop_creator="1"
         android:layout_marginStart="109dp"
         android:layout_marginTop="234dp"
-        tools:layout_constraintLeft_creator="1"
+        android:text="Longitude"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
 </android.support.constraint.ConstraintLayout>
