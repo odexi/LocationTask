@@ -5,8 +5,20 @@
 
 
     <TextView
-        android:id="@+id/latitude"
+        android:id="@+id/meters"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0m" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView" />
 
@@ -15,6 +27,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
 
     <org.osmdroid.views.MapView
         android:id="@+id/map"
